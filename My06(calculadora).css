@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+#principal{
+    background: linear-gradient(90deg, #00416A, #E4E5E6);
+    border: 2px solid rgb(66, 28, 28);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 180px;
+    height: 240px;
+    padding: 50px;
+    }
+p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
+#conta{
+    background: white;
+    border: 1px solid;
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  170px;
+    height: 30px;
+    bottom: 30px;
+    left: 5px;
+    }
+button {
+    background: linear-gradient(90deg, #353535, #312f2f);
+    color: white;
+    margin: 2px 0px 2px 2px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -20px;
+    bottom: 20px;
+    }
+#divisao, #multiplicacao, #adicao, #subtracao{
+    background: linear-gradient(90deg, #957a7a, #5b5656);
+    width: 35px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 180px;
+    position: relative;
+    bottom: 236px;
+    }
+#restart{
+    background: linear-gradient(90deg, #fd6a01, #fa7d1c);
+    width:  170px;
+    height: 30px;
+    position: relative;
+    bottom: 215px;
+    left: 0px;
+    }
