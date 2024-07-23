@@ -2,13 +2,13 @@ body{
     text-align: center;
 }
 #principal{
-    background: linear-gradient(90deg, #00416A, #E4E5E6);
+    background: linear-gradient(90deg, #034f7ed9, #9dbee0);
     border: 2px solid rgb(66, 28, 28);
     margin: auto;
     text-align: center;
     border-radius: 10px;
     width: 180px;
-    height: 240px;
+    height: 290px;
     padding: 50px;
     }
 p{
@@ -17,8 +17,9 @@ p{
     font-size: 25px;
     }
 #conta{
-    background: white;
-    border: 1px solid;
+    background: rgba(255, 255, 255, 0.678);
+    border: 0.5px solid;
+    border-radius: 5px;
     position: relative;
     font-family: Arial;
     font-weight: bold;
@@ -39,22 +40,30 @@ button {
     height: 50px;
     position: relative;
     left: -20px;
-    bottom: 20px;
+    bottom: 75px;
     }
 #divisao, #multiplicacao, #adicao, #subtracao{
-    background: linear-gradient(90deg, #957a7a, #5b5656);
+    background: linear-gradient(90deg, #766161, #5b5656);
     width: 35px;
     height: 50px;
     border-radius: 5px;
     margin-left: 180px;
     position: relative;
-    bottom: 236px;
+    bottom: 291px;
     }
 #restart{
     background: linear-gradient(90deg, #fd6a01, #fa7d1c);
     width:  170px;
     height: 30px;
     position: relative;
-    bottom: 215px;
+    bottom: 280px;
     left: 0px;
     }
+#del{
+    left: 57px;
+    width: 92px;
+}
+#porcentagem, #zeraConta{
+    left: -48px;
+    top: -20px;
+}

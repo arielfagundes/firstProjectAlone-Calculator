@@ -1,23 +1,6 @@
 //Buscando as Div's pelo Id:
 var conta = document.getElementById('conta');
 
-var button0 = document.getElementById('button0');
-var button1 = document.getElementById('button1');
-var button2 = document.getElementById('button2');
-var button3 = document.getElementById('button3');
-var button4 = document.getElementById('button4');
-var button5 = document.getElementById('button5');
-var button6 = document.getElementById('button6');
-var button7 = document.getElementById('button7');
-var button8 = document.getElementById('button8');
-var button9 = document.getElementById('button9');
-
-var buttonD = document.getElementById('divisao')
-var buttonM = document.getElementById('multiplicacao')
-var buttonA = document.getElementById('adicao')
-var buttonS = document.getElementById('subtracao')
-var buttonV = document.getElementById('virgula');
-
 // Adiciona números e operadores chamando a function e dando valores aos parâmetros.
 function number0(){
     addNumber('0');
@@ -72,7 +55,8 @@ let exp = ''; // Criando variável para adicionar uma expressão em string com o
 function addNumber(valor){
     conta.innerHTML += valor; // Insere o valor digitado na div
     exp += valor; // Insere o valor na variável expressão
-    list.push(valor) // Insere valores na lista  
+    list.push(valor) // Insere valores na lista 
+    
 } 
 
 function envioConta(){
@@ -97,6 +81,20 @@ function envioConta(){
     conta.innerHTML = exp; // Insere novo valor da expressão já realizada.
 }
 
-const atualizar = () => { // Chama a função onclick onde atualiza a página
+const restart = () => { // Chama a função onclick onde atualiza a página
     location.reload();
+}
+
+const zeraConta = () => {
+    location.reload();
+}
+
+const porcentagem = () => {
+    exp = exp / 100;
+    conta.innerHTML = exp;
+}
+
+const del = () => {
+    exp = exp.slice(0, -1);
+    conta.innerHTML = exp;
 }
