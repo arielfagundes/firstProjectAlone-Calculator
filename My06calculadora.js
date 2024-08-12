@@ -99,9 +99,5 @@ const del = () => {
     conta.innerHTML = exp;
 }
 
-/*
-function teste() {
-    let element = element*2;
-
-}
-*/
+//New Branch para teste, para experimento.
+//Escrevi mais uma coisa subindo pelo git.
