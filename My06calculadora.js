@@ -97,4 +97,3 @@ const porcentagem = () => {
 const del = () => {
     exp = exp.slice(0, -1);
     conta.innerHTML = exp;
-}
