@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Calculadora</title>
 </head>
 <body>
@@ -16,42 +17,44 @@
     <p><strong>Calculadora Básica</strong></p>
     <div id="principal">
         <div id="conta"></div>
-    <section>
-        <button id="porcentagem" onclick="porcentagem()"><strong>%</strong></button> 
-        <button id="zeraConta" onclick="zeraConta()"><strong>CE</strong></button>
-        <button id="del" onclick="del()"><strong>Delete</strong></button>
-        <br>
+            <div>
+                <button id="porcentagem" onclick="porcentagem()"><strong>%</strong></button> 
+                <button id="zeraConta" onclick="zeraConta()"><strong>CE</strong></button>
+                <button id="del" onclick="del()"><strong>Delete</strong></button>
+                <br>
 
-        <button id="button7" onclick="number7()"><strong>7</strong></button>
-        <button id="button8" onclick="number8()"><strong>8</strong></button>
-        <button id="button9" onclick="number9()"><strong>9</strong></button>
-        <br>
-        <button id="button4" onclick="number4()"><strong>4</strong></button>
-        <button id="button5" onclick="number5()"><strong>5</strong></button>
-        <button id="button6" onclick="number6()"><strong>6</strong></button>
-        <br>
-        <button id="button1" onclick="number1()"><strong>1</strong></button>
-        <button id="button2" onclick="number2()"><strong>2</strong></button>
-        <button id="button3" onclick="number3()"><strong>3</strong></button>
-        <br>
-        <button id="buttonV" onclick="virgula()"><strong>,</strong></button>
-        <button id="button0" onclick="number0()"><strong>0</strong></button>
-        <button onclick="envioConta()"><strong>=</strong></button>
-    </section>
-    <section>
-        <button value="divisao" id="divisao" onclick="divisao()"><strong>/</strong></button>
-        <button value="multiplicacao" id="multiplicacao" onclick="multiplicacao()"><strong>x</strong></button>
-        <button value="adicao" id="adicao" onclick="subtracao()"><strong>-</strong></button>
-        <button value="subtracao" id="subtracao" onclick="adicao()"><strong>+</strong></button>
-    </section>
-        <button onclick="restart()" id="restart"><strong>Restart</strong></button>
+                <button onclick="number7()"><strong>7</strong></button>
+                <button onclick="number8()"><strong>8</strong></button>
+                <button onclick="number9()"><strong>9</strong></button>
+                <button class="operadores" onclick="divisao()"><strong>/</strong></button>
+                
+                <button onclick="number4()"><strong>4</strong></button>
+                <button onclick="number5()"><strong>5</strong></button>
+                <button onclick="number6()"><strong>6</strong></button>
+                <button class="operadores" onclick="multiplicacao()"><strong>x</strong></button>
+                
+                <button onclick="number1()"><strong>1</strong></button>
+                <button onclick="number2()"><strong>2</strong></button>
+                <button onclick="number3()"><strong>3</strong></button>
+                <button class="operadores" onclick="subtracao()"><strong>-</strong></button>
+                
+                <button onclick="virgula()"><strong>,</strong></button>
+                <button onclick="number0()"><strong>0</strong></button>
+                <button onclick="envioConta()"><strong>=</strong></button>
+                <button class="operadores" onclick="adicao()"><strong>+</strong></button>
+            </div>
+            <div>
+                
+                
+                
+                
+    
+                <button onclick="restart()" id="restart"><strong>Restart</strong></button>
+            </div>
     </div>
 
     <script src="buttonFunctionCalculator.js"></script>
     <script src="darkModeOption.js"></script>
     
-
-
-
 </body>
 </html>

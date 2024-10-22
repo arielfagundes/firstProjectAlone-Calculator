@@ -1,44 +1,38 @@
 body{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
 }
 
 #dark{
     position: relative;
     left: 250px;
-
 }
 
-p{
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    }
-
 #principal{
-    background: linear-gradient(90deg, #034f7ed9, #9dbee0);
-    border: 2px solid rgb(66, 28, 28);
+    background: linear-gradient(90deg, #0e80c7d9, #9dbee0);
+    border: 1px solid rgb(66, 28, 28);
     margin: auto;
-    text-align: center;
     border-radius: 10px;
-    width: 180px;
-    height: 290px;
-    padding: 50px;
+    width: 260px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    flex-direction: column;
     }
 
 #conta{
-    background: rgba(255, 255, 255, 0.678);
-    border: 0.5px solid;
+    background: rgba(78, 26, 26, 0.1);
+    font-family: 'Inconsolata' monospace;
     border-radius: 5px;
-    position: relative;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    font-size: 25px;
+    width:  260px;
+    height: 90px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width:  170px;
-    height: 30px;
-    bottom: 30px;
-    left: 5px;
+    align-items: center;
     }
 button {
     background: linear-gradient(90deg, #353535, #312f2f);
@@ -47,30 +41,24 @@ button {
     border-radius: 5px;
     width: 50px;
     height: 50px;
-    position: relative;
-    left: -20px;
-    bottom: 75px;
+    transition: transform 0.3s ease;
     }
-#divisao, #multiplicacao, #adicao, #subtracao{
+button:hover {
+    transform: scale(1.08);
+}
+.operadores {
     background: linear-gradient(90deg, #766161, #5b5656);
     width: 35px;
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 180px;
-    position: relative;
-    bottom: 291px;
+    
     }
 #restart{
     background: linear-gradient(90deg, #fd6a01, #fa7d1c);
     width:  170px;
     height: 30px;
-    position: relative;
-    bottom: 280px;
-    left: 0px;
     }
 #del{
-    left: 57px;
     width: 92px;
+    left: 57px;
 }
 #porcentagem, #zeraConta{
     left: -48px;
