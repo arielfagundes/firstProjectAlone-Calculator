@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="My06(calculadora).css">
+    <link rel="stylesheet" href="calculator.css">
     <title>Calculadora</title>
 </head>
 <body>
+    <select id="dark" id="darkModeSelect" size="2">
+    <option value="darkMode" onclick="dark()">Dark Mode</option>
+    <option value="lightMode" onclick="light()">Light Mode</option>
+    </select>
+
+
     <p><strong>Calculadora Básica</strong></p>
     <div id="principal">
         <div id="conta"></div>
@@ -41,7 +47,9 @@
         <button onclick="restart()" id="restart"><strong>Restart</strong></button>
     </div>
 
-    <script src="My06calculadora.js"></script>
+    <script src="buttonFunctionCalculator.js"></script>
+    <script src="darkModeOption.js"></script>
+    
 
 
 
