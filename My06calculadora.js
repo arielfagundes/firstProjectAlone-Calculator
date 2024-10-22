@@ -86,7 +86,9 @@ const restart = () => { // Chama a função onclick onde atualiza a página
 }
 
 const zeraConta = () => {
-    location.reload();
+    conta.innerHTML = '';
+    list = [];
+    exp = '';
 }
 
 const porcentagem = () => {
