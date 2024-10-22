@@ -1,6 +1,19 @@
 body{
     text-align: center;
 }
+
+#dark{
+    position: relative;
+    left: 250px;
+
+}
+
+p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
+
 #principal{
     background: linear-gradient(90deg, #034f7ed9, #9dbee0);
     border: 2px solid rgb(66, 28, 28);
@@ -11,11 +24,7 @@ body{
     height: 290px;
     padding: 50px;
     }
-p{
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    }
+
 #conta{
     background: rgba(255, 255, 255, 0.678);
     border: 0.5px solid;
