@@ -1,4 +1,4 @@
-//Making count by divConta
+
 
 //Buscando as Div's pelo Id:
 const contaButton = document.getElementById('conta');
